@@ -1,22 +1,18 @@
-import style from "./Profile.module.css";
+import style from "./Profile.module.scss";
+import MyPosts from "./myPosts/MyPosts";
 
 const Profile = () => {
 	return (
 		<>
-			<div className="content">
-				<div className={style.img}>
+			<div>
+				<div id={style.img}>
 					<img
-						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhu7T_TSNJSxWdM5aNaekEunO3v1CYGSmlxg&usqp=CAU"
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzRKA__pZ05IX7K0VzXXz2SLLJzqsFuwVMQ&usqp=CAU"
 						alt="img"
 					/>
 				</div>
-				<div>
-					<img src="" alt="" />
-				</div>
-				<div className={style.posts}>My posts</div>
-				<div className={style.item}>New post</div>
-				<div className={style.item}>post 1</div>
-				<div className={style.item}>post 2</div>
+				<div>ava + description</div>
+				<MyPosts />
 			</div>
 		</>
 	);
