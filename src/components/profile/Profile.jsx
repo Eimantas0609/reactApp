@@ -5,7 +5,7 @@ const Profile = () => {
 	return (
 		<>
 			<div>
-				<div id={style.img}>
+				<div className={style.img}>
 					<img
 						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzRKA__pZ05IX7K0VzXXz2SLLJzqsFuwVMQ&usqp=CAU"
 						alt="img"
