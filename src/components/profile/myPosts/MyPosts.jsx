@@ -4,11 +4,13 @@ import Post from "./post/Post";
 const MyPosts = () => {
 	return (
 		<>
-			<div>
-				My MyPosts
+			<div className={style.postBlock}>
+				MyPosts
 				<div>
 					<textarea></textarea>
-					<button>Add post</button>
+					<div>
+						<button>Add post</button>
+					</div>
 				</div>
 				<div className={style.posts}>
 					<Post />
